@@ -1,0 +1,18 @@
+{
+  "name": "swc-example",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "swc ./src -d ./output",
+    "exec": "node --experimental-specifier-resolution=node output/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@swc/cli": "^0.1.57",
+    "@swc/core": "^1.2.165"
+  }
+}
